@@ -6,8 +6,8 @@ import gatsbyLogo from '../images/gatsby-icon.png';
 import bulmaLogo from '../images/bulma-logo.png';
 
 const Navbar = () => (
-	<div className="hero-head is-hidden-mobile">
-		<nav className="navbar">
+	<div className="is-hidden-mobile">
+		<nav className="navbar is-fixed-top">
 			<div className="container">
 				<div className="navbar-brand">
 					<a
