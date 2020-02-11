@@ -37,7 +37,10 @@
 }
 
 .headerMgn{
-	margin-top: 100px;
+	margin-top: 80px;
+	@include desktop {
+		margin-top: 200px;
+	}
 }
 
 .headerImg{
