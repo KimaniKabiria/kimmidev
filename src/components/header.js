@@ -1,5 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
+import { FaChevronDown} from 'react-icons/fa'
 
 import './style.scss';
 
@@ -47,6 +48,14 @@ const Header = ({ siteTitle }) => (
 				</div>
 
 			</div>
+		</div>
+		<div className="Columns headerFoot center">
+			<div className="column is-one-third-desktop"></div>
+			<div className="column is-one-third-desktop has-text-centered">
+				<h4 className="is-navy is-size-4-desktop">Let's Get Started!</h4>
+                <FaChevronDown />
+			</div>
+			<div className="column is-one-third-desktop"></div>
 		</div>
 	</section>
 );
