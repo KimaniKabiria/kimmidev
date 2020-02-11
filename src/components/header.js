@@ -1,47 +1,25 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
 
 import './style.scss';
 
-import gatsbyLogo from '../images/gatsby-icon.png';
-import bulmaLogo from '../images/bulma-logo.png';
+import headerImg from '../images/coder_vector.png';
+
+
 
 const Header = ({ siteTitle }) => (
-	<section className="hero gradientBg is-fullheight-with-navbar">
-		<div className="hero-body">
-			<div className="container center">
-				<article className="media">
-					<figure className="is-left">
-						<span className="icon is-large ">
-							<img src={gatsbyLogo} alt="gatsby-logo" />
-						</span>
-					</figure>
-					<figure className="is-left">
-						<span className="icon is-large">
-							<img src={bulmaLogo} alt="bulma-logo" />
-						</span>
-					</figure>
-					<div className="media-content">
-						<div className="content">
-							<h1 className="is-uppercase is-size-1 has-text-white">
-								Hello from Bulma + Gatsby
-							</h1>
-							<p className="subtitle has-text-white is-size-3">
-								A Bulma CSS + GatsbyJS Starter Kit{' '}
-								<a
-									className="button is-info is-inverted"
-									href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
-								>
-									<span className="icon">
-										<FaGithub size="fa-2x" />
-									</span>
-									<span>Download</span>
-								</a>
-							</p>
-						</div>
-					</div>
-				</article>
+	<section className="section sectionWhtBg is-fullheight-with-navbar is-family-code is-bold is-navy has-text-centered">
+		<div className="columns headerMgn">
+			<div className="column is-one-third-desktop"></div>
+			<div className="column is-two-thirds-desktop">
+				<h1 className="is-size-1-desktop is-size-4-mobile is-navy">Hi, I am <span className="has-text-weight-bold">Alvin Kimani.</span></h1>
+				<h2 className="is-size-3-desktop is-navy">I build things that live on the internet</h2>
 			</div>
+		</div>
+		<div className="colummns">
+			<div className="column is-one-third-desktop">
+				<img className="headerImg" src={headerImg} alt="HaderIMG"/>
+			</div>
+			<div className="column is-two-thirds-desktop"></div>
 		</div>
 	</section>
 );

@@ -27,3 +27,22 @@
 		color: $secondary-color;
 	}
 }
+
+.sectionWhtBg {
+	background-color: #E6F1FF;
+}
+
+.is-navy {
+	color: #0A192F;
+}
+
+.headerMgn{
+	margin-top: 100px;
+}
+
+.headerImg{
+	@include desktop {		
+		margin-left: 40px;
+		margin-top: -190px;
+	}
+}

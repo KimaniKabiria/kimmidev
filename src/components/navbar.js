@@ -1,35 +1,36 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
 
 import './style.scss';
-import gatsbyLogo from '../images/gatsby-icon.png';
-import bulmaLogo from '../images/bulma-logo.png';
+import logo from '../images/logo.png';
 
 const Navbar = () => (
-	<div className="is-hidden-mobile">
+	<div className="has-shadow is-family-code">
 		<nav className="navbar is-fixed-top">
 			<div className="container">
 				<div className="navbar-brand">
 					<a
 						className="navbar-item"
-						href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
+						href="#"
 					>
-						<img src={gatsbyLogo} alt="Logo-1" />
-						<img src={bulmaLogo} alt="Logo-2" />
+						<img src={logo} alt="Logo" />
 					</a>
 				</div>
 				<div id="navbarMenuHeroA" className="navbar-menu">
 					<div className="navbar-end">
 						<span className="navbar-item">
-							<a
-								className="button is-danger is-inverted"
-								href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
-							>
-								<span className="icon">
-									<FaGithub size="fa-2x" />
-								</span>
-								<span>Download</span>
-							</a>
+							<p>01. About </p>
+						</span>
+						<span className="navbar-item">
+							<p>02. Tech</p>
+						</span>
+						<span className="navbar-item">
+							<p>03. Work</p>
+						</span>
+						<span className="navbar-item">
+							<p>04. Showcase</p>
+						</span>
+						<span className="navbar-item">
+							<p>05. Contact Us</p>
 						</span>
 					</div>
 				</div>

@@ -15,7 +15,7 @@ const Midsection = () => (
 	<div>
 		<section className="section">
 			<div className="container">
-				<div className="columns is-multiline">
+				<div className="columns is-multiline is-family-code">
 					<div className="column is-one-third">
 						<article className="media">
 							<figure className="media-left">
