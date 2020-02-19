@@ -7,6 +7,8 @@ import Navbar from './navbar';
 import Midsection from './midsection';
 import Footer from './footer';
 import About from './about';
+import Tools from './tools';
+import Works from './works';
 
 const Layout = ({ children }) => ( 
     <div>
@@ -14,6 +16,8 @@ const Layout = ({ children }) => (
         <Navbar/>
         <Header/>
         <About/>
+        <Tools/>
+        <Works/>
         <Midsection/>
         <Footer/>
     </div>

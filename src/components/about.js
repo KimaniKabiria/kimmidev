@@ -18,11 +18,9 @@ const About = () => (
 		<section className="section sectionLightSlateBg is-family-code" id="#about">
 			<div className="container">
                 <div className="columns center">
-                    <div className="column is-one-third-desktop"></div>
                     <div className="column is-one-third-desktop">
                         <h1 className="is-navy is-size-3-desktop has-text-centered has-text-weight-bold">01. Who am I?</h1>
                     </div>
-                    <div className="column is-one-third-desktop"></div>
                 </div>
                 <div className="columns abtCol">
                     <div className="column is-half-desktop">
