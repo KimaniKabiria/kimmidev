@@ -1,12 +1,18 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import { FaChevronDown} from 'react-icons/fa'
+import styled, {keyframes} from 'styled-components';
+import { bounce } from 'react-animations';
 
 import './style.scss';
 
 import headerImg from '../images/coder_vector.png';
 
-
+const bounceAnimation = keyframes`${bounce}`;
+ 
+const BouncyDiv = styled.div`
+  animation: 2s ${bounceAnimation} infinite;
+`;
 
 const Header = ({ siteTitle }) => (
 	<section className="section sectionWhtBg is-fullheight-with-navbar is-family-code is-bold is-navy has-text-centered">
@@ -52,8 +58,10 @@ const Header = ({ siteTitle }) => (
 		<div className="Columns headerFoot center">
 			<div className="column is-one-third-desktop"></div>
 			<div className="column is-one-third-desktop has-text-centered">
-				<h4 className="is-navy is-size-4-desktop">Let's Get Started!</h4>
-                <FaChevronDown />
+				<BouncyDiv>
+					<h4 className="is-navy is-size-4-desktop">Let's Get Started!</h4>
+					<FaChevronDown />
+				</BouncyDiv>
 			</div>
 			<div className="column is-one-third-desktop"></div>
 		</div>
