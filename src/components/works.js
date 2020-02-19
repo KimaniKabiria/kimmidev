@@ -19,8 +19,6 @@ import {
     AccordionItemPanel,
 } from 'react-accessible-accordion';
 
-import 'react-accessible-accordion/dist/fancy-example.css';
-
 const Works = () => (
 	<div>
 		<section className="section sectionSlateBg is-family-code">
