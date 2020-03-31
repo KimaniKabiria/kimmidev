@@ -1,4 +1,7 @@
 import React from 'react';
+import { FaChevronDown} from 'react-icons/fa'
+import styled, {keyframes} from 'styled-components';
+import { flash } from 'react-animations';
 import {
 	FaSass,
 	FaHtml5,
@@ -12,6 +15,12 @@ import GeekDesk from '../images/geek_desk.png';
 
 import './style.scss';
 import Emoji from './emoji';
+
+const flashAnimation = keyframes`${flash}`;
+ 
+const FlashyDiv = styled.div`
+  animation: 2s ${flashAnimation} infinite;
+`;
 
 const About = () => (
 	<div>

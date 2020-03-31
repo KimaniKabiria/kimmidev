@@ -46,7 +46,7 @@ const Slider = () => (
 
 const Tools = () => (
 	<div>
-		<section className="section sectionWhtBg is-family-code is-bold is-navy has-text-centered">
+		<section className="section is-family-code is-bold is-navy has-text-centered">
 			<div className="container">
                 <div className="columns center">
                     <div className="column is-one-third-desktop">
