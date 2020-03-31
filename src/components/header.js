@@ -15,7 +15,7 @@ const BouncyDiv = styled.div`
 `;
 
 const Header = ({ siteTitle }) => (
-	<section className="section sectionWhtBg is-fullheight-with-navbar is-family-code is-bold is-navy has-text-centered">
+	<section className="section is-fullheight-with-navbar is-family-code is-bold is-navy has-text-centered">
 		<div className="columns headerMgn">
 			<div className="column is-one-third-desktop"></div>
 			<div className="column is-two-thirds-desktop">

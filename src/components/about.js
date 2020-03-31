@@ -15,7 +15,7 @@ import Emoji from './emoji';
 
 const About = () => (
 	<div>
-		<section className="section sectionLightSlateBg is-family-code" id="#about">
+		<section className="section is-family-code" id="#about">
 			<div className="container">
                 <div className="columns center">
                     <div className="column is-one-third-desktop">
