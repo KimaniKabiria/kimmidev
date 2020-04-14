@@ -39,7 +39,7 @@ const Navbar = () => (
 					<br/>
 					<a href={Resume}>
 						<button className="button sectionNavy is-medium">
-							<p className="is-wht">Resume</p>
+							<p className="is-wht is-family-code">Resume</p>
 						</button>
 					</a>
 				</div>
