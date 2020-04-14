@@ -1,15 +1,6 @@
 import React from 'react';
-import {
-	FaSass,
-	FaHtml5,
-	FaReact,
-	FaMobileAlt,
-	FaRocket,
-	FaOsi
-} from 'react-icons/fa';
 
 import './style.scss';
-import Emoji from './emoji';
 
 import {
     Accordion,
@@ -25,15 +16,15 @@ const Works = () => (
 			<div className="container">				
                 <div className="columns center">
                         <div className="column is-one-third-desktop">
-                            <h1 className="is-size-3-desktop has-text-centered has-text-weight-bold is-navy">03. What do I do??</h1>
+                            <h1 className="is-size-3-desktop has-text-centered has-text-weight-bold is-navy">03. What do I do?</h1>
+                  <p className="is-navy is-size-5-desktop has-text-centered">Here are some of the tech platforms I build for.</p>
                             <br/>
                         </div>
                     </div>
-                </div>
                 <div className="columns abtCol">
-                    <div className="column is-one-quarter-desktop">
+                    <div className="column is-one-fifth-desktop">
                     </div>
-                    <div className="column is-half-desktop">
+                    <div className="column">
                         <Accordion 
                             allowMultipleExpanded={true}
                             allowZeroExpanded={true}>
@@ -134,7 +125,7 @@ const Works = () => (
                         </Accordion>
                     </div>
                     
-                    <div className="column is-one-quarter-desktop">
+                    <div className="column is-one-fifth-desktop">
                     </div>
                 </div>
                 <br/>
@@ -147,6 +138,7 @@ const Works = () => (
                     </div>
                     <div className="column is-one-third-desktop"></div>
                 </div>
+            </div>
 		</section>
 	</div>
 );

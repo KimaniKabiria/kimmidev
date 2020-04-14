@@ -9,6 +9,7 @@ import Footer from './footer';
 import About from './about';
 import Tools from './tools';
 import Works from './works';
+import Projects from './projects';
 
 const Layout = ({ children }) => ( 
     <div>
@@ -18,7 +19,7 @@ const Layout = ({ children }) => (
         <About/>
         <Tools/>
         <Works/>
-        <Midsection/>
+        <Projects/>
         <Footer/>
     </div>
 );

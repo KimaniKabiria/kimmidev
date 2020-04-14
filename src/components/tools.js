@@ -1,15 +1,6 @@
 import React from 'react';
-import {
-	FaSass,
-	FaHtml5,
-	FaReact,
-	FaMobileAlt,
-	FaRocket,
-	FaOsi
-} from 'react-icons/fa';
 
 import './style.scss';
-import Emoji from './emoji';
 
 import AndroidDev from '../images/android_dev.png';
 import IoT from '../images/iot.png';
@@ -21,7 +12,6 @@ import Languages from '../images/web_dev_lang.png';
 import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
-import AnimationStyles from 'react-awesome-slider/src/styled/fold-out-animation/fold-out-animation.scss';
  
 const AutoplaySlider = withAutoplay(AwesomeSlider);
  
@@ -48,14 +38,14 @@ const Tools = () => (
 	<div>
 		<section className="section is-family-code is-bold is-navy has-text-centered">
 			<div className="container">
-                <div className="columns center">
-                    <div className="column is-one-third-desktop">
-                        <h1 className="is-navy is-size-3-desktop has-text-centered has-text-weight-bold">02. Tools I Use;</h1>
-                        <p className="is-navy is-size-5-desktop has-text-centered">Here are some of the tech and tools I use to build my projects.</p>
-                    </div>
-                </div>
-                
-                <Slider/>
+          <div className="columns center">
+              <div className="column is-one-third-desktop">
+                  <h1 className="is-navy is-size-3-desktop has-text-centered has-text-weight-bold">02. Tools I Use;</h1>
+                  <p className="is-navy is-size-5-desktop has-text-centered">Here are some of the tech and tools I use to build my projects.</p>
+              </div>
+          </div>
+          
+          <Slider/>
 			</div>
 		</section>
 	</div>

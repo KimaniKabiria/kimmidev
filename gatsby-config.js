@@ -4,7 +4,7 @@ module.exports = {
         author: 'Alvin Kimani',
         imageUrl: 'https://i.imgur.com/Vz81GEl.png',
         description: 'This is a portfolio website for Alvin Kimani',
-        keywords: `Web developer, Web, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo, Starter`,
+        keywords: `Alvin Kimani, kimmidev, Web developer, Web, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo, Starter`,
         twitter: '',
         github: '',
         medium: '',
@@ -22,6 +22,20 @@ module.exports = {
             }
         },
         'gatsby-transformer-sharp',
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [
+                    {
+                    resolve: 'gatsby-remark-external-links',
+                        options: {
+                            target: '_blank',
+                            rel: 'nofollow noopener noreferrer',
+                        },
+                    },
+                ],
+            },
+        },
         'gatsby-plugin-sharp',
         {
             resolve: `gatsby-plugin-manifest`,

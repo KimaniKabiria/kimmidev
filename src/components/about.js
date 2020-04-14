@@ -1,26 +1,8 @@
 import React from 'react';
-import { FaChevronDown} from 'react-icons/fa'
-import styled, {keyframes} from 'styled-components';
-import { flash } from 'react-animations';
-import {
-	FaSass,
-	FaHtml5,
-	FaReact,
-	FaMobileAlt,
-	FaRocket,
-	FaOsi
-} from 'react-icons/fa';
 
 import GeekDesk from '../images/geek_desk.png';
 
 import './style.scss';
-import Emoji from './emoji';
-
-const flashAnimation = keyframes`${flash}`;
- 
-const FlashyDiv = styled.div`
-  animation: 2s ${flashAnimation} infinite;
-`;
 
 const About = () => (
 	<div>
@@ -29,6 +11,7 @@ const About = () => (
                 <div className="columns center">
                     <div className="column is-one-third-desktop">
                         <h1 className="is-navy is-size-3-desktop has-text-centered has-text-weight-bold">01. Who am I?</h1>
+                  <p className="is-navy is-size-5-desktop has-text-centered">Here is a brief autobiography about me</p>
                     </div>
                 </div>
                 <div className="columns abtCol">
@@ -59,7 +42,7 @@ const About = () => (
                         </p>
                     </div>
                     <div className="column is-half-desktop">
-                        <img src={GeekDesk}/>
+                        <img src={GeekDesk} alt="GeekDesk"/>
                     </div>
                 </div>
 			</div>
