@@ -1,66 +1,81 @@
 import React from 'react'
-import { FaTwitter, FaGithub, FaMedium } from 'react-icons/fa'
-import { StaticQuery, graphql } from 'gatsby'
+import { FaTwitter, FaGithub, FaFacebook, FaInstagram } from 'react-icons/fa'
+import Bulma from '../images/bulma.png';
+import Gatsby from '../images/gatsby.png';
 import './style.scss'
 import Emoji from './emoji'
 
+
 const Footer = () => (
-  <StaticQuery
-    query={graphql`
-      query SocialQuery {
-        site {
-          siteMetadata {
-            gatsby
-            bulma
-            twitter
-            medium
-            github
-          }
-        }
-      }
-    `}
-    render={data => (
-      <footer className='footer center has-background-light'>
-        <div className='content has-text-centered'>
-          <p className='is-size-4'>
-            This website was handcrafted with plenty cups of{' '}
-            <Emoji emoji='☕' />
-          </p>
-          <p className='is-size-4'>
-            By Aman Mittal (@amanhimself) using{' '}
-            <a href={data.site.siteMetadata.gatsby}>Gatsby</a> +{' '}
-            <a href={data.site.siteMetadata.bulma}>Bulma</a>
-          </p>
-          <article className='media center'>
-            <span className='icon'>
-              <a href={data.site.siteMetadata.twitter}>
-                <FaTwitter size='fa-2x' color='blue' />
-              </a>
-            </span>
-            &nbsp;
-            <span className='icon'>
-              <a href={data.site.siteMetadata.github}>
-                <FaGithub size='fa-2x' color='black' />
-              </a>
-            </span>
-            &nbsp;
-            <span className='icon'>
-              <a href={data.site.siteMetadata.medium}>
-                <FaMedium size='fa-2x' color='green' />
-              </a>
-            </span>
-            &nbsp;
-          </article>
-          &nbsp;
-          <p className='is-size-5'>
-            You can also back or support this project for me to keep it updated
-            by{' '}
-            <a href='https://www.paypal.me/amanhimself/2'>Buying Me a Coffee</a>
-          </p>
+  <div>
+    <section className="section is-family-code sectionNavy">
+      <div className="container">
+        <div className="columns center">
+          <div className="column is-half-desktop">
+            <p className="is-wht is-size-6-desktop has-text-centered">
+              This website was handcrafted with plenty cups of{' '}
+              <Emoji emoji='☕' />
+            </p>
+            <br/>
+            <p className="is-wht is-size-6-desktop has-text-centered">
+              By Alvin Kimani using:
+            </p>
+            <br/>
+
+            <div className="columns center">
+              <div className="column is-one-third-desktop is-two-fifths-mobile">
+                <div className="columns is-multiline">
+                  <div className="column">
+                    <a href="https://bulma.io">
+                      <img src={Bulma} alt="Bulma"/>
+                    </a>
+                  </div>
+                  <div className="column">
+                    <a href="https://www.gatsbyjs.org/">
+                      <img src={Gatsby} alt="Gatsby"/>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <article className='media center'>
+              <span className='icon'>
+                <a href="https://twitter.com/kimmi_dev">
+                  <FaTwitter size='fa-7x' color='white' />
+                </a>
+              </span>
+              &nbsp;
+              &nbsp;
+              <span className='icon'>
+                <a href="https://github.com/KimaniKabiria">
+                  <FaGithub size='fa-7x' color='white' />
+                </a>
+              </span>
+              &nbsp;
+              &nbsp;
+              <span className='icon'>
+                <a href="https://www.facebook.com/kimanikabiria/">
+                  <FaFacebook size='fa-7x' color='white' />
+                </a>
+              </span>
+              &nbsp;
+              &nbsp;
+              <span className='icon'>
+                <a href="https://www.instagram.com/kimani.kabiria/">
+                  <FaInstagram size='fa-7x' color='white' />
+                </a>
+              </span>
+            </article>
+            <br/>
+            <p className="is-wht is-size-5-desktop has-text-centered">
+              &copy; KimmiDevs {new Date().getFullYear()}
+            </p>
+          </div>
         </div>
-      </footer>
-    )}
-  />
-)
+      </div>
+    </section>
+  </div>
+);
 
 export default Footer

@@ -25,7 +25,7 @@ const Projects = () =>{
                         <div className="column">
                             <div className="columns is-multiline center">
 
-                                <div className="column is-one-third">
+                                <div className="column is-one-third-desktop is-full-mobile">
                                     <div class="card sectionNavy has-text-white cardRound">
                                         <div class="card-content">
                                             <div className="columns">
@@ -63,7 +63,8 @@ const Projects = () =>{
                                     </div>
                                 </div>
 
-                                <div className="column is-one-third">
+
+                                <div className="column is-one-third-dektop is-full-mobile">
                                     <div class="card sectionNavy has-text-white cardRound">
                                         <div class="card-content">
                                             <div className="columns">
@@ -95,9 +96,8 @@ const Projects = () =>{
                                     </div>
                                 </div>
 
-                                
 
-                                <div className="column is-one-third">
+                                <div className="column is-one-third-desktop is-full-mobile">
                                     <div class="card sectionNavy has-text-white cardRound">
                                         <div class="card-content">
                                             <div className="columns">
@@ -126,7 +126,7 @@ const Projects = () =>{
                                 </div>
 
 
-                                <div className="column is-one-third">
+                                <div className="column is-one-third-desktop is-full-mobile">
                                     <div class="card sectionNavy has-text-white cardRound">
                                         <div class="card-content">
                                             <div className="columns">
@@ -168,7 +168,7 @@ const Projects = () =>{
                                 </div>
 
 
-                                <div className="column is-one-third">
+                                <div className="column is-one-third-desktop is-full-mobile">
                                     <div class="card sectionNavy has-text-white cardRound">
                                         <div class="card-content">
                                             <div className="columns">
@@ -204,7 +204,7 @@ const Projects = () =>{
                                 </div>
 
 
-                                <div className="column is-one-third">
+                                <div className="column is-one-third-desktop is-full-mobile">
                                     <div class="card sectionNavy has-text-white cardRound">
                                         <div class="card-content">
                                             <div className="columns">
@@ -240,7 +240,7 @@ const Projects = () =>{
                                 </div>
 
 
-                                <div className="column is-one-third">
+                                <div className="column is-one-third-desktop is-full-mobile">
                                     <div class="card sectionNavy has-text-white cardRound">
                                         <div class="card-content">
                                             <div className="columns">
@@ -275,7 +275,7 @@ const Projects = () =>{
                                 </div>
 
 
-                                <div className="column is-one-third">
+                                <div className="column is-one-third-desktop is-full-mobile">
                                     <div class="card sectionNavy has-text-white cardRound">
                                         <div class="card-content">
                                             <div className="columns">
@@ -311,7 +311,7 @@ const Projects = () =>{
                                 </div>
 
 
-                                <div className="column is-one-third">
+                                <div className="column is-one-third-desktop is-full-mobile">
                                     <div class="card sectionNavy has-text-white cardRound">
                                         <div class="card-content">
                                             <div className="columns">

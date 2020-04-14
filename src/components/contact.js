@@ -15,7 +15,7 @@ const Contact =() =>(
 
                 <div className="columns abtCol center">
                     <div className="column is-one-fifth-desktop"></div>
-                    <div className="column">
+                    <div className="column is-full-mobile">
                         <div className="columns">
                             <div className="column">
                                 <h1 className="is-size-1 has-text-centered has-text-weight-bold is-navy">Get In Touch:</h1>
