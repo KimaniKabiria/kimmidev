@@ -4,7 +4,7 @@ import './style.scss';
 import Helmet from './helmet';
 import Header from './header';
 import Navbar from './navbar';
-import Midsection from './midsection';
+import Contact from './contact';
 import Footer from './footer';
 import About from './about';
 import Tools from './tools';
@@ -20,6 +20,7 @@ const Layout = ({ children }) => (
         <Tools/>
         <Works/>
         <Projects/>
+        <Contact/>
         <Footer/>
     </div>
 );

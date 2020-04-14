@@ -132,9 +132,11 @@ const Works = () => (
                 <div className="columns center">
                     <div className="column is-one-third-desktop"></div>
                     <div className="column is-one-third-desktop center">
-                        <button className="button is-rounded sectionGreyBg is-large">
-                            <p className="is-white-custom">Get in Touch</p>
-                        </button>
+                        <a href={`mailto:kabiriakimani@gmail.com`}>
+                            <button className="button is-rounded sectionGreyBg is-large">
+                                <p className="is-white-custom">Get in Touch</p>
+                            </button>
+                        </a>
                     </div>
                     <div className="column is-one-third-desktop"></div>
                 </div>
