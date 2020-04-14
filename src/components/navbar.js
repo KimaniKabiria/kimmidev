@@ -17,31 +17,15 @@ const Navbar = () => (
 					</a>
 				</div>
 				<div id="navbarMenuHeroA" className="navbar-menu">
-					{/* <div className="navbar-end">
+					<div className="navbar-end">						
 						<span className="navbar-item">
-							<p>01. About </p>
+							<a href={Resume}>
+								<button className="button sectionNavy">
+									<p className="is-wht is-family-code">Resume</p>
+								</button>
+							</a>
 						</span>
-						<span className="navbar-item">
-							<p>02. Tech</p>
-						</span>
-						<span className="navbar-item">
-							<p>03. Work</p>
-						</span>
-						<span className="navbar-item">
-							<p>04. Showcase</p>
-						</span>
-						<span className="navbar-item">
-							<p>05. Contact Us</p>
-						</span>
-					</div> */}
-				</div>
-				<div className="navbar-end">
-					<br/>
-					<a href={Resume}>
-						<button className="button sectionNavy is-medium">
-							<p className="is-wht is-family-code">Resume</p>
-						</button>
-					</a>
+					</div>
 				</div>
 			</div>
 		</nav>

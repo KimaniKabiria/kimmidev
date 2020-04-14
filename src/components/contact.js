@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from '../images/resume.pdf'
 
 import './style.scss';
 
@@ -31,6 +32,13 @@ const Contact =() =>(
                                 <a href={`mailto:kabiriakimani@gmail.com`}>
                                     <button className="button is-large">
                                         <p className="is-navy">Say Hello</p>
+                                    </button>
+                                </a>
+                                &nbsp;    
+                                &nbsp;
+                                <a href={Resume}>
+                                    <button className="button sectionNavy is-large">
+                                        <p className="is-wht is-family-code">Resume</p>
                                     </button>
                                 </a>
                             </div>
